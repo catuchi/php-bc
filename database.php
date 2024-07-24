@@ -13,3 +13,6 @@
         echo "Could not connect <br>";
     }
 ?>
+<?php
+    mysqli_close($conn);
+?>

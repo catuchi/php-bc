@@ -24,3 +24,6 @@
         echo "No user found";
     }
 ?>
+<?php
+    mysqli_close($conn);
+?>
